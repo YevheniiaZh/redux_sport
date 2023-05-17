@@ -11,3 +11,65 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App{
+  display: flex;
+  justify-content: space-around;
+}
+
+body{
+  background-color: black;
+}
+
+.planBlock{
+  background-color: white;
+  padding: 20px;
+}
+
+.block{
+  color: white;
+}
+
+img{
+  width: 400px;
+}
+.planBlock{
+  border: 3px solid black;
+  border-radius: 10px;
+  margin-bottom: 3px;
+}
+
+.cartIcon{
+  width: 70px;
+}
+.categoryButtonSelected{
+  background-color: #0D7377;
+  
+}
+
+.categoryButton:hover {
+  background-color: #435055;
+}
+
+.categoryButton{
+  cursor: pointer;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.icon{
+  background-color: #0D7377;
+border-radius: 20px;
+width: 20px;
+height: 20px;
+padding: 3px;
+}
+
+.addToCart{
+  background-color: #0D7377;
+  color: aliceblue;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 3px;
+}
